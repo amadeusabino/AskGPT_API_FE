@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<link rel="shortcut icon" href="static/favicon.ico">
+	<title>Pergunte ao ChatGPT</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<style>
+      body {
+        background-image: url("DALL·E 2023-04-28 17.49.15.png");
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+	<h1>Pergunte ao ChatGPT</h1>
+	<form>
+		<label for="question">Digite sua pergunta:</label>
+		<input type="text" size=80 id="question" name="question"><br><br>
+		<button type="button" id="button" onclick="chamarAPI()">Enviar</button>
+		<script>
+			$(document).on("keypress", "form", function(event) { 
+				return event.keyCode != 13;
+			});
+		</script>
+	</form>
+	<br>
+	<div id="result"></div>
+
+	<script>
+		function chamarAPI() {
+			var question = document.getElementById("question").value;
+			$.get("/ask", {question: question}, function(data){
+				document.getElementById("result").innerHTML = data;
+			});
+		}
+	</script>
+</body>
+</html>

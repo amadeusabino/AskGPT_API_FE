@@ -1,0 +1,497 @@
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o maior inventor de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1407 request_id=4d4a1b3d3d560045deeefe52cb7eb8b3 response_code=200
+INFO:root:Quem foi o maior inventor de todos os tempos? Não há uma resposta única para essa pergunta, pois depende de quem está respondendo. Alguns dos inventores mais notáveis \u200b\u200bincluem Thomas Edison, Leonardo da Vinci, Alexander Graham Bell, Nikola Tesla, Benjamin Franklin, Steve Jobs e muitos outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o maior inventor de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1733 request_id=da8d8030f14b0daf7a13ffa467301e3e response_code=200
+INFO:root:Quem foi o maior inventor de todos os tempos? Não há uma resposta única para essa pergunta, pois depende de quem está respondendo. Alguns dos inventores mais notáveis \u200b\u200bincluem Thomas Edison, Leonardo da Vinci, Alexander Graham Bell, Nikola Tesla, Benjamin Franklin, Steve Jobs e muitos outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o maior inventor de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1713 request_id=4e991d39fcc7926b6c8931b9b6e29744 response_code=200
+INFO:root:12/04/2023: Pergunta: Quem foi o maior inventor de todos os tempos?
+Resposta: Não há uma resposta única para essa pergunta, pois
+depende de quem está respondendo. Alguns dos
+inventores mais notáveis \u200b\u200bincluem Thomas Edison,
+Leonardo da Vinci, Alexander Graham Bell, Nikola
+Tesla, Benjamin Franklin, Steve Jobs e muitos
+outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o maior inventor de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1200 request_id=43ef0641da34a364e407a0c8db7da7cb response_code=200
+INFO:root:12/04/2023: Pergunta: Quem foi o maior inventor de todos os tempos?
+Resposta: Não há uma resposta única para essa pergunta, pois
+depende de quem está fazendo a pergunta e de quais
+critérios estão sendo usados para avaliar o
+invento. Alguns dos inventores mais notáveis
+\u200b\u200bincluem Thomas Edison, Leonardo da Vinci,
+Alexander Graham Bell, Nikola Tesla, Benjamin
+Franklin, Steve Jobs e muitos outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor jogador de futebol de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1770 request_id=e22106ff027e4402cddb399ce24b0eca response_code=200
+INFO:root:12/04/2023: Pergunta: Quem foi o melhor jogador de futebol de todos os tempos?
+Resposta: Essa é uma questão muito difícil de responder,
+pois existem muitos jogadores de futebol
+talentosos ao longo dos anos. Alguns dos jogadores
+mais famosos e talentosos incluem Pelé, Diego
+Maradona, Lionel Messi, Cristiano Ronaldo, Johan
+Cruyff, Zinedine Zidane, Ronaldinho e muitos
+outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor jogador de futebol de todos os tempos?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1675 request_id=93077722aec18afa9886f82951868b5a response_code=200
+INFO:root:12/04/2023: Pergunta: Quem foi o melhor jogador de futebol de todos os tempos?
+Resposta: Essa é uma questão muito difícil de responder,
+pois existem muitos jogadores de futebol
+talentosos ao longo dos anos. Alguns dos jogadores
+mais famosos e talentosos incluem Pelé, Diego
+Maradona, Lionel Messi, Cristiano Ronaldo, Johan
+Cruyff, Zinedine Zidane, Ronaldinho e muitos
+outros.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor piloto de formula 1", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1506 request_id=75c19d838e1f9c6305f9e6e237412c87 response_code=200
+INFO:root:12/04/2023: Pergunta: Quem foi o melhor piloto de formula 1
+Resposta: Essa é uma questão muito difícil de responder,
+pois existem muitos pilotos de Fórmula 1 que se
+destacaram ao longo dos anos. Alguns dos mais
+famosos incluem Michael Schumacher, Ayrton Senna,
+Lewis Hamilton, Sebastian Vettel e Fernando
+Alonso. Cada um deles tem seus próprios feitos e
+conquistas, então é difícil dizer quem é o melhor
+de todos.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor piloto de moto", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1545 request_id=804e787d74bd1e7093a5c6d02a0022a2 response_code=200
+INFO:root:12/04/2023-19:24:09: Pergunta: Quem foi o melhor piloto de moto
+Resposta: velocidade de todos os tempos? Essa é uma questão
+muito difícil de responder, pois existem muitos
+pilotos de motovelocidade talentosos e
+bem-sucedidos ao longo dos anos. Alguns dos mais
+notáveis incluem Valentino Rossi, Giacomo
+Agostini, Mike Hailwood, Mick Doohan, Casey
+Stoner, Marc Marquez e Jorge Lorenzo.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor piloto de moto", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1514 request_id=65da5e77e48cddc0408b62a75e7a2915 response_code=200
+INFO:root:12/04/2023-19:30:24: Pergunta: Quem foi o melhor piloto de moto
+Resposta: de todos os tempos?
+
+Essa é uma questão muito difícil de responder, pois existem muitos pilotos de moto talentosos ao longo dos anos. Alguns dos mais famosos incluem Valentino Rossi, Marc Marquez, Mick Doohan, Giacomo Agostini, Mike Hailwood, Kenny Roberts, Eddie Lawson, Wayne Rainey e Barry Sheene.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor piloto de moto", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2079 request_id=73138597713f6b9f4256691ed06474fc response_code=200
+INFO:root:12/04/2023-19:31:00: Pergunta: Quem foi o melhor piloto de moto
+Resposta: velocidade de todos os tempos?
+
+Essa é uma questão muito difícil de responder, pois existem muitos pilotos de motovelocidade talentosos e bem-sucedidos ao longo dos anos. Alguns dos mais notáveis incluem Valentino Rossi, Giacomo Agostini, Mike Hailwood, Mick Doohan, Casey Stoner, Marc Marquez e Jorge Lorenzo.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Quem foi o melhor piloto de moto", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1998 request_id=f76fd9e70fcef75270714513361b1ae2 response_code=200
+INFO:root:12/04/2023-19:31:09: Pergunta: Quem foi o melhor piloto de moto
+Resposta: velocidade de todos os tempos?
+
+Essa é uma questão muito difícil de responder, pois existem muitos pilotos de motovelocidade talentosos e bem-sucedidos ao longo dos anos. Alguns dos mais notáveis incluem Valentino Rossi, Giacomo Agostini, Mike Hailwood, Mick Doohan, Casey Stoner, Marc Marquez e Jorge Lorenzo.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "ol\\u00e1 como vai? pode me ajudar?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1041 request_id=7ad21db6ab2a7118714cca3a182b3ecc response_code=200
+INFO:root:25/04/2023-18:34:29: Pergunta: olá como vai? pode me ajudar?
+Resposta: Olá! Como posso ajudar?
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "preciso de uma ideia de um negocio para ganhar dinheiro em Software", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=6845 request_id=4ee86e0c6b47a0d96dbe7fb241932b33 response_code=200
+INFO:root:25/04/2023-18:35:28: Pergunta: preciso de uma ideia de um negocio para ganhar dinheiro em Software
+Resposta: Uma ideia de negócio para ganhar dinheiro em software é criar um serviço de desenvolvimento de aplicativos móveis. Você pode oferecer serviços de desenvolvimento de aplicativos para empresas, organizações e indivíduos. Você pode oferecer serviços de design, desenvolvimento, teste e manutenção de aplicativos móveis. Você também pode oferecer serviços de consultoria para ajudar os clientes a escolher o melhor aplicativo para suas necessidades.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "como fazer o deploy de uma app python e flask no AWS cloud", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=8558 request_id=ac8c8be6f522b945c4b6f0f1fa3026e2 response_code=200
+INFO:root:25/04/2023-18:39:02: Pergunta: como fazer o deploy de uma app python e flask no AWS cloud
+Resposta: 1. Crie uma conta na AWS e configure o ambiente de desenvolvimento.
+
+2. Crie um bucket S3 para armazenar seu aplicativo.
+
+3. Crie um servidor EC2 para hospedar seu aplicativo.
+
+4. Instale o Python e o Flask no servidor EC2.
+
+5. Faça o upload do seu aplicativo para o bucket S3.
+
+6. Configure o servidor EC2 para baixar o aplicativo do bucket S3.
+
+7. Configure o servidor EC2 para executar o aplicativo usando o Flask.
+
+8. Configure o servidor EC2 para acessar o aplicativo usando um domínio.
+
+9. Teste o aplicativo para garantir que ele está funcionando corretamente.
+
+10. Publique o aplicativo para que ele esteja disponível para uso.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "como configurar um frontend no pytohnanywhere", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=17400 request_id=b516617e710ca4e2c0f699caeeb7e8b7 response_code=200
+INFO:root:26/04/2023-08:57:32: Pergunta: como configurar um frontend no pytohnanywhere
+Resposta: 1. Crie uma conta no PythonAnywhere e faça o login.
+
+2. Na página inicial, clique em "Consoles" na barra de navegação.
+
+3. Clique em "Criar novo console Bash".
+
+4. Na janela do console, digite o seguinte comando para instalar o Flask:
+
+pip3 install flask
+
+5. Crie um arquivo chamado "app.py" e adicione o seguinte código:
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello World!'
+
+if __name__ == '__main__':
+    app.run()
+
+6. Execute o seguinte comando para iniciar o servidor:
+
+python3 app.py
+
+7. Clique no botão "Web" na barra de navegação.
+
+8. Clique em "Adicionar um novo aplicativo web".
+
+9. Selecione "Manual configuration" e clique em "Next".
+
+10. Selecione "Python 3.7" e clique em "Next".
+
+11. Na seção "Código fonte", selecione "Enter the path to a WSGI file" e digite o caminho para o arquivo "app.py" que você criou.
+
+12. Clique em "Next" e, em seguida, em "Finish".
+
+13. Clique no botão "Reload" para recarregar o servidor.
+
+14. Visite o seu site para ver o seu aplicativo Flask em ação.
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "como publicar uma api no pythonanywhere", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "como publicar uma api no pythonanywhere", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=73130 request_id=c16be1d645b9917faa2e9622fe6c416b response_code=200
+INFO:root:26/04/2023-08:58:25: Pergunta: como publicar uma api no pythonanywhere
+Resposta: 1. Crie uma conta no PythonAnywhere.
+
+2. Crie um ambiente virtual para o seu projeto.
+
+3. Instale o Flask e outras dependências necessárias para o seu projeto.
+
+4. Crie um arquivo de configuração para o seu servidor web.
+
+5. Crie um arquivo de configuração para o seu aplicativo Flask.
+
+6. Crie um arquivo de configuração para o seu banco de dados.
+
+7. Crie um arquivo de configuração para o seu serviço de autenticação.
+
+8. Crie um arquivo de configuração para o seu serviço de autorização.
+
+9. Crie um arquivo de configuração para o seu serviço de autenticação de usuários.
+
+10. Crie um arquivo de configuração para o seu serviço de autorização de usuários.
+
+11. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+12. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+13. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos.
+
+14. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos.
+
+15. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+16. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+17. Crie um arquivo de configuração para o seu serviço de autenticação de servidor.
+
+18. Crie um arquivo de configuração para o seu serviço de autorização de servidor.
+
+19. Crie um arquivo de configuração para o seu serviço de autenticação de serviços de terceiros.
+
+20. Crie um arquivo de configuração para o seu serviço de autorização de serviços de terceiros.
+
+21. Crie um arquivo de configuração para o seu serviço de autenticação de servidor de terceiros.
+
+22. Crie um arquivo de configuração para o seu serviço de autorização de servidor de terceiros.
+
+23. Crie um arquivo de configuração para o seu serviço de autenticação de API de terceiros.
+
+24. Crie um arquivo de configuração para o seu serviço de autorização de API de terceiros.
+
+25. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos de terceiros.
+
+26. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos de terceiros.
+
+27. Crie um arquivo de configuração para o seu serviço de autenticação de serviços de terceiros.
+
+28. Crie um arquivo de configuração para o seu serviço de autorização de serviços de terceiros.
+
+29. Crie um arquivo de configuração para o seu serviço de autenticação de servidor de terceiros.
+
+30. Crie um arquivo de configuração para o seu serviço de autorização de servidor de terceiros.
+
+31. Crie um arquivo de configuração para o seu serviço de autenticação de API de terceiros.
+
+32. Crie um arquivo de configuração para o seu serviço de autorização de API de terceiros.
+
+33. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos de terceiros.
+
+34. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos de terceiros.
+
+35. Crie um arquivo de configuração para o seu serviço de autenticação de serviços de terceiros.
+
+36. Crie um arquivo de configuração para o seu serviço de autorização de serviços de terceiros.
+
+37. Crie um arquivo de configuração para o seu serviço de autenticação de servidor de terceiros.
+
+38. Crie um arquivo de configuração para o seu serviço de autorização de servidor de terceiros.
+
+39. Crie um arquivo de configuração para o seu serviço de autenticação de API de terceiros.
+
+40. Crie um arquivo de configuração para o seu serviço de autorização de API de terceiros.
+
+41. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos de terceiros.
+
+42. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos de terceiros.
+
+43. Crie um arquivo de configuração para o seu serviço de autenticação de serviços de terceiros.
+
+44. Crie um arquivo de configuração para o seu serviço de autorização de serviços de terceiros.
+
+45. Crie um arquivo de configuração para o seu serviço de autenticação de servidor de terceiros.
+
+46. Crie um arquivo de configuração para o seu serviço de autorização de servidor de terceiros.
+
+47. Crie um arquivo de configuração para o seu serviço de autenticação de API de terceiros.
+
+48. Crie um arquivo de configuração para o seu serviço de autorização de API de terceiros.
+
+49. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos de terceiros.
+
+50. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos de terceiros.
+
+51. Crie um arquivo de configuração para o seu serviço de autenticação de serviços de terceiros.
+
+52. Crie um arquivo de configuração para o seu serviço de autorização de serviços de terceiros.
+
+53. Crie um arquivo de configuração para o seu serviço de autenticação de servidor de terceiros.
+
+54. Crie um arquivo de configuração para o seu serviço de autorização de servidor de terceiros.
+
+55. Crie um arquivo de configuração para o seu serviço de autenticação de API de terce
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "continue", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=79759 request_id=800afe536d3fdcfec7961db9b7d804d3 response_code=200
+INFO:root:26/04/2023-08:59:23: Pergunta: como publicar uma api no pythonanywhere
+Resposta: 1. Crie uma conta no PythonAnywhere.
+
+2. Crie um ambiente virtual para o seu projeto.
+
+3. Instale o Flask e outras dependências necessárias para o seu projeto.
+
+4. Crie um arquivo de configuração para o seu servidor web.
+
+5. Crie um arquivo de configuração para o seu aplicativo Flask.
+
+6. Crie um arquivo de configuração para o seu banco de dados.
+
+7. Crie um arquivo de configuração para o seu serviço de autenticação.
+
+8. Crie um arquivo de configuração para o seu serviço de autorização.
+
+9. Crie um arquivo de configuração para o seu serviço de autenticação de usuários.
+
+10. Crie um arquivo de configuração para o seu serviço de autorização de usuários.
+
+11. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos.
+
+12. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos.
+
+13. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+14. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+15. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+16. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+17. Crie um arquivo de configuração para o seu serviço de autenticação de recursos.
+
+18. Crie um arquivo de configuração para o seu serviço de autorização de recursos.
+
+19. Crie um arquivo de configuração para o seu serviço de autenticação de conteúdo.
+
+20. Crie um arquivo de configuração para o seu serviço de autorização de conteúdo.
+
+21. Crie um arquivo de configuração para o seu serviço de autenticação de usuários.
+
+22. Crie um arquivo de configuração para o seu serviço de autorização de usuários.
+
+23. Crie um arquivo de configuração para o seu serviço de autenticação de aplicativos.
+
+24. Crie um arquivo de configuração para o seu serviço de autorização de aplicativos.
+
+25. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+26. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+27. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+28. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+29. Crie um arquivo de configuração para o seu serviço de autenticação de recursos.
+
+30. Crie um arquivo de configuração para o seu serviço de autorização de recursos.
+
+31. Crie um arquivo de configuração para o seu serviço de autenticação de conteúdo.
+
+32. Crie um arquivo de configuração para o seu serviço de autorização de conteúdo.
+
+33. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+34. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+35. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+36. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+37. Crie um arquivo de configuração para o seu serviço de autenticação de recursos.
+
+38. Crie um arquivo de configuração para o seu serviço de autorização de recursos.
+
+39. Crie um arquivo de configuração para o seu serviço de autenticação de conteúdo.
+
+40. Crie um arquivo de configuração para o seu serviço de autorização de conteúdo.
+
+41. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+42. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+43. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+44. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+45. Crie um arquivo de configuração para o seu serviço de autenticação de recursos.
+
+46. Crie um arquivo de configuração para o seu serviço de autorização de recursos.
+
+47. Crie um arquivo de configuração para o seu serviço de autenticação de conteúdo.
+
+48. Crie um arquivo de configuração para o seu serviço de autorização de conteúdo.
+
+49. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+50. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+51. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+52. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+53. Crie um arquivo de configuração para o seu serviço de autenticação de recursos.
+
+54. Crie um arquivo de configuração para o seu serviço de autorização de recursos.
+
+55. Crie um arquivo de configuração para o seu serviço de autenticação de conteúdo.
+
+56. Crie um arquivo de configuração para o seu serviço de autorização de conteúdo.
+
+57. Crie um arquivo de configuração para o seu serviço de autenticação de API.
+
+58. Crie um arquivo de configuração para o seu serviço de autorização de API.
+
+59. Crie um arquivo de configuração para o seu serviço de autenticação de serviços.
+
+60. Crie um arquivo de configuração para o seu serviço de autorização de serviços.
+
+61. Crie um arquivo de configuração para o se
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "continue", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=78993 request_id=3560bafbd6e60f598bad22fe985bcf26 response_code=200
+INFO:root:26/04/2023-09:00:37: Pergunta: continue
+Resposta: 
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=81241 request_id=76172e4fc2f5dbd8d658607a7ec38e38 response_code=200
+INFO:root:26/04/2023-09:01:19: Pergunta: continue
+Resposta: 
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "atue como um vendedor e me venda um servi\\u00e7o de instala\\u00e7\\u00e3o de energia solar fotovoltaica", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=19595 request_id=06cb908ece4770b70398d48ee5d44240 response_code=200
+INFO:root:26/04/2023-09:05:05: Pergunta: atue como um vendedor e me venda um serviço de instalação de energia solar fotovoltaica
+Resposta: .
+
+Olá, meu nome é [seu nome] e sou um vendedor de serviços de instalação de energia solar fotovoltaica. Estou aqui para lhe oferecer o melhor serviço de instalação de energia solar fotovoltaica.
+
+Nossa empresa oferece serviços de instalação de energia solar fotovoltaica de alta qualidade, com profissionais altamente qualificados e experientes. Nossos serviços incluem a instalação de painéis solares, sistemas de armazenamento de energia, sistemas de monitoramento e controle, bem como serviços de manutenção e suporte.
+
+Além disso, oferecemos serviços de consultoria para ajudar você a escolher o melhor sistema de energia solar fotovoltaica para suas necessidades. Nossos consultores são especialistas em energia solar e podem ajudá-lo a escolher o melhor sistema para sua casa ou empresa.
+
+Nossos serviços são acessíveis e oferecemos preços competitivos. Estamos comprometidos em fornecer serviços de qualidade e garantir que você obtenha o melhor valor para o seu investimento.
+
+Se você estiver interessado em nossos serviços de instalação de energia solar fotovoltaica, entre em contato conosco para obter mais informações. Estamos ansiosos para ajudá-lo a obter o melhor sistema de energia solar fotovoltaica para suas necessidades.
