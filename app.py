@@ -13,7 +13,8 @@ def run_script():
     except subprocess.CalledProcessError as e:
         print(f'Erro: {e.output.decode()}')
     
-    result = r.decode('utf-8')   
+    #result = r.decode('utf-8')   
+    result = r.decode('latin-1')   
     
     #print(result)
     return result

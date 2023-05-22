@@ -6,25 +6,37 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<style>
       body {
-        background-image: url("DALL·E 2023-04-28 17.49.15.png");
+        background-image: url("static/BackGround.png");
         background-size: cover;
       }
     </style>
 </head>
 <body>
-	<h1>Pergunte ao ChatGPT</h1>
+	<h1>Use a API Completion da OpenAI</h1>
 	<form>
-		<label for="question">Digite sua pergunta:</label>
-		<input type="text" size=80 id="question" name="question"><br><br>
-		<button type="button" id="button" onclick="chamarAPI()">Enviar</button>
-		<script>
+		<label for="question">Digite sua pergunta:</label> <br>
+		<!-- <input type="text" size=80 id="question" name="question"><br><br> -->
+		<textarea rows="4" cols="80" id="question" name="question"></textarea> <br><br>
+		<button type="button" id="button" onclick="chamarAPI()" style="width:200px; height:50px;"> Enviar </button>
+		<!-- <script>
 			$(document).on("keypress", "form", function(event) { 
 				return event.keyCode != 13;
 			});
-		</script>
+		</script> -->
+		<script>
+			// Capturando o evento de pressionar tecla no campo de input
+			document.getElementById("button").addEventListener("keydown", function(event) {
+			  // Verificando se a tecla pressionada é o "Enter"
+			  if (event.key === "Enter") {
+				// Chamando o método de clique do botão
+				document.getElementById("button").click();
+			  }
+			});
+		  </script>
 	</form>
 	<br>
-	<div id="result"></div>
+	<!-- <div id="result"></div> -->
+	<textarea rows="10" cols="80" id="result"></textarea>
 
 	<script>
 		function chamarAPI() {
