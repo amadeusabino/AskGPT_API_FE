@@ -902,3 +902,27 @@ DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HT
 DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=3004 request_id=098dc7ac691ea64ac2e1d394e016741f response_code=200
 INFO:root:22/05/2023-11:00:54: Pergunta: atue como um tradutor e traduza par a o inglês a seguinte frase: O relatório também permite um gasto extra no ano que vem por causa de dois dispositivos: uma mudança no cálculo da inflação que servirá para reajustar o limite dos gastos públicos e um trecho que fixa o aumento no ano que vem em 2,5% além da inflação (independente da receita aferida pelo governo).
 Resposta: The report also allows for extra spending next year due to two devices: a change in the calculation of inflation that will serve to adjust the limit of public spending and a clause that sets the increase next year at 2.5% above inflation (regardless of the revenue collected by the government).
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Hi. How are you?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=591 request_id=bb490c53d94743e0923790bb6799f623 response_code=200
+INFO:root:22/05/2023-11:40:58: Pergunta: Hi. How are you?
+Resposta: I'm doing well, thank you. How about you?
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "Hi. How are you?", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=539 request_id=20cf720d0582f2b6853a45ee1cf20833 response_code=200
+INFO:root:22/05/2023-11:41:00: Pergunta: Hi. How are you?
+Resposta: I'm doing well, thank you. How about you?
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "I\'m great tks", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=367 request_id=f974be60d5a2386857c463b2a459a8c5 response_code=200
+INFO:root:22/05/2023-11:41:31: Pergunta: I'm great tks
+Resposta: That's great to hear!
