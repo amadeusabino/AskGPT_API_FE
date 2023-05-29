@@ -29,7 +29,7 @@
 			  // Verificando se a tecla pressionada é o "Enter"
 			  if (event.key === "Enter") {
 				// Chamando o método de clique do botão
-				document.getElementById("button").click();
+				document.getElementById("button").click();				
 			  }
 			});
 		  </script>
@@ -43,6 +43,7 @@
 	<script>
 		function chamarAPI() {
 			var question = document.getElementById("question").value;
+			document.getElementById("result").innerHTML = 'Aguardando resposta ....';
 			$.get("/ask", {question: question}, function(data){
 				document.getElementById("result").innerHTML = data;
 			});
