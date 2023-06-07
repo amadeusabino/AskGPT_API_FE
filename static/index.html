@@ -3,51 +3,44 @@
 <head>	
 	<link rel="shortcut icon" href="static/favicon.ico">
 	<title>Pergunte ao GPT OpenAI API</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/styles.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<style>
-      body {
-        background-image: url("static/BackGround.png");
-        background-size: cover;
-      }
-    </style>
 </head>
 <body>
 	<h1>Use a API Completion da OpenAI</h1>
 	<form>
-		<label for="question">Digite sua pergunta:</label> <br>
-		<!-- <input type="text" size=80 id="question" name="question"><br><br> -->
-		<textarea rows="10" cols="80" id="question" name="question"></textarea> <br><br>
-		<button type="button" id="button" onclick="chamarAPI()" style="width:200px; height:50px;"> Enviar </button>
-		<!-- <script>
-			$(document).on("keypress", "form", function(event) { 
-				return event.keyCode != 13;
-			});
-		</script> -->
-		<script>
-			// Capturando o evento de pressionar tecla no campo de input
-			document.getElementById("button").addEventListener("keydown", function(event) {
-			  // Verificando se a tecla pressionada é o "Enter"
-			  if (event.key === "Enter") {
-				// Chamando o método de clique do botão
-				document.getElementById("button").click();				
-			  }
-			});
-		  </script>
+		<label for="question">Digite sua pergunta:</label>
+		<textarea id="question" name="question"></textarea>
+		<div class="button-container">
+			<button type="button" id="button" onclick="chamarAPI()">Enviar</button>
+		</div>
 	</form>
-	<br>
+
 	<div>
-		<label> Resposta: </label> <br> 
-		<textarea rows="15" cols="80" id="result"></textarea>
+		<label>Resposta:</label>
+		<textarea id="result" readonly></textarea>
 	</div>
+	
+	<footer>
+		<p>Created by <a href="http://www.alsoft-ti.com.br"> Alsoft TI</a></p>
+	</footer>
 
 	<script>
 		function chamarAPI() {
 			var question = document.getElementById("question").value;
-			document.getElementById("result").innerHTML = 'Aguardando resposta ....';
+			document.getElementById("result").innerHTML = 'Aguardando resposta....';
 			$.get("/ask", {question: question}, function(data){
 				document.getElementById("result").innerHTML = data;
 			});
 		}
+
+		document.getElementById("button").addEventListener("keydown", function(event) {
+			if (event.key === "Enter") {
+				document.getElementById("button").click();
+			}
+		});
 	</script>
+
 </body>
 </html>
